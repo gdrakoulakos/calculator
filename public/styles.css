@@ -1,0 +1,145 @@
+body {
+  display: grid;
+  place-items: center;
+  background-image: url("images/backgrounds/background.png");
+  background-color: #8B3885;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  padding-top: 30px;
+  
+} 
+
+button {
+  width: 75px;
+  height: 70px;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  border: 3px solid #2D033B;
+  color: #fff;
+  background-color: rgb(78, 49, 75);
+}
+
+button:hover {
+  background-color: rgb(138, 120, 137);
+}
+
+.calc-body {
+  display: flex;
+  width: 300px;
+  height: 628px;
+  border-radius: 10%;
+  border: 3px solid #fff;
+  padding: 8px;
+  box-shadow: 0 2px 5px #ccc;
+  background-color: #2D033B;
+}
+
+#delete {
+  width: 225px;
+  background-color: #810CA8;
+}
+
+#delete:hover {
+  background-color: #985daa;
+}
+
+p {
+  display: grid;
+  place-items: center;
+  height: 68px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background-color: black;
+}
+
+#first-num {
+  border-radius: 30% 30% 0% 0% ;
+}
+
+#equal {
+  width: 150px;
+  border-bottom-right-radius: 20px;
+  background-color: #810CA8;
+}
+
+#equal:hover {
+  background-color: #985daa;
+}
+
+#zero {
+  width: 150px;
+  border-bottom-left-radius: 20px;
+}
+
+#multiplication {
+  background-color: #810CA8;
+}
+
+#multiplication:hover {
+  background-color: #985daa;
+}
+
+#subtraction{
+  background-color: #810CA8;
+}
+
+#subtraction:hover {
+  background-color: #985daa;
+}
+
+#addition{
+  background-color: #810CA8;
+}
+
+#addition:hover {
+  background-color: #985daa;
+}
+
+#division{
+  background-color: #810CA8;
+}
+
+#division:hover {
+  background-color: #985daa;
+}
+
+#result {
+  color: green;
+  font-size: 60px;
+}
+
+@media only screen and (max-width: 980px) {
+
+  .calc-body {
+    width: 750px;
+    height: 1400px;
+  }
+
+  button {
+    width: 187px;
+    height: 175px;
+    font-size: 90px;
+  }
+
+  #delete {
+    width: 562px;
+  }
+
+  p {
+    height: 100px;
+  }
+
+  #equal {
+    width: 375px;
+  }
+
+  #zero {
+    width: 375px;
+  }
+
+  p {
+    font-size: 200px;
+  }
+} 
