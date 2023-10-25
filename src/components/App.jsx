@@ -29,8 +29,7 @@ function App () {
 
     function handleFinalResult () {
         if (symbol === "+") {
-            setFinalResult(combinedTotalNum1 + combinedTotalNum2)
-            setNum1(finalResult)           
+            setFinalResult(combinedTotalNum1 + combinedTotalNum2)        
         }
         else if (symbol === "-") {
             setFinalResult(combinedTotalNum1 - combinedTotalNum2)
